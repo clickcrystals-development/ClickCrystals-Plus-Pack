@@ -3,7 +3,7 @@
  ## This is texture pack for the mod-[**ClickCrystals**](https://modrinth.com/mod/clickcrystals)!
 
 #### This texture is based on Prime(from Discord and deleted user) basic texture!
-Press here for more [Credits+License](https://github.com/ItzNoOne/ClickCrystalPlus-Pack-/blob/main/CREDITS%2BLICENSE%20.txt)
+**Press here for more [Credits+License](https://github.com/ItzNoOne/ClickCrystalPlus-Pack-/blob/main/CREDITS%2BLICENSE%20.txt)**
 
 The ***ClickCrystalPlus*** - pack contains the **following features**:
 - blue theme
