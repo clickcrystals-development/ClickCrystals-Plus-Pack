@@ -1,4 +1,5 @@
 # [ClickCrystalPlus-Pack!](https://modrinth.com/resourcepack/clickcrystalplus-pack)
+### for version 1.20.2
 
  ## This is texture pack for the mod-[**ClickCrystals**](https://modrinth.com/mod/clickcrystals)!
 
