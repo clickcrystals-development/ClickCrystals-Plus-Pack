@@ -2,6 +2,7 @@
 ### for version 1.20.2
 
  ## This is texture pack for the mod-[**ClickCrystals**](https://modrinth.com/mod/clickcrystals)!
+ ![image](https://cdn.discordapp.com/attachments/1106637602607607899/1162144151756886046/2023-10-13_00.44.28.png?ex=653ade15&is=65286915&hm=f76285eda4ee1e37f807ffbd159bc0679c93a63558d81f419794ea821b248420&)
 
 #### This texture is based on Prime(from Discord and deleted user) basic texture!
 **Press here for more [Credits+License](https://github.com/ItzNoOne/ClickCrystalPlus-Pack-/blob/main/CREDITS%2BLICENSE%20.txt)**
