@@ -1,0 +1,31 @@
+{
+    "parent": "item/smaller_util",
+    "textures": {
+        "particle": "minecraft:item/transparent",
+  	"layer0": "item/golden_apple"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"eating": 1,
+				"eat": 0.35
+			},
+			"model": "item/golden_apple_eating_0"
+		},
+		{
+			"predicate": {
+				"eating": 1,
+				"eat": 0.7
+			},
+			"model": "item/golden_apple_eating_1"
+		},
+		{
+			"predicate": {
+				"eating": 1,
+				"eat": 0.9
+			},
+			"model": "item/golden_apple_eating_2"
+		}
+	]
+}
+		

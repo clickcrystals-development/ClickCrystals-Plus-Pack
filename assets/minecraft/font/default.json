@@ -1,0 +1,112 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/helmet.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\uefe1"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/chestplate.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\uefe2"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/leggings.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\uefe3"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/boots.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\uefe4"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/sword.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\uefe5"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/pickaxe.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\uefe6"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/trident.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\uefe7"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/bow.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\uefe8"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/crosbow.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\uefe9"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/fishing.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\ueef1"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/star.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\ueef2"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:misc/skull.png",
+			"ascent": 8,
+			"height": 16,
+			"chars": [
+				"\ueef3"
+			]
+		}
+	]
+}

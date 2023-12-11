@@ -1,0 +1,29 @@
+{
+    "parent": "item/smaller_util",
+    "textures": {
+        "layer0": "item/totem_of_undying"
+    },
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [0, -87, 22],
+            "translation": [2.5, 1.5, 0],
+            "scale": [0.75, 0.75, 0.75]
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, -87, 22],
+            "translation": [2.5, 1.5, 0],
+            "scale": [0.75, 0.75, 0.75]
+        },
+        "gui": {
+            "scale": [1.40, 1.40, 1.40]
+        },
+        "fixed": {
+            "translation": [0, -4.25, 0],
+            "scale": [0.75, 0.75, 0.75]
+        },
+        "thirdperson_righthand": {
+            "rotation": [0, 0, 0],
+            "translation": [0, 3, 1]
+        }
+    }
+}
