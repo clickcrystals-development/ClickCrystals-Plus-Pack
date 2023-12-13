@@ -26,16 +26,14 @@ out vec2 texCoord0;
 out vec2 texCoord1;
 out vec2 texCoord2;
 out vec4 normal;
+out vec4 tintColour;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
     vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Position, FogShape);
-
-	vec4 lightColor = minecraft_sample_lightmap(Sampler2, UV2);
-    if (vertexDistance > 800) lightColor = texelFetch(Sampler2, UV2 / 16, 0);
-    vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color) * lightColor;
-	
+    vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color) * texelFetch(Sampler2, UV2 / 16, 0);
+    tintColour = Color;
     texCoord0 = UV0;
     texCoord1 = UV1;
     texCoord2 = UV2;
