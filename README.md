@@ -3,8 +3,10 @@ _________________________
 
 #### This texture is based on Prime(from Discord and deleted user) basic texture!
 ______________________
+![image](https://github.com/I-No-oNe/ClickCrystalPlus-Pack/assets/145749961/229a1e0d-f980-40cc-a3d9-c28ad727b28b)
+![image](https://github.com/I-No-oNe/ClickCrystalPlus-Pack/assets/145749961/65a4d63c-992f-4b4b-8ce3-2e85711ce997)
 
-![image](https://cdn.discordapp.com/attachments/1106637602607607899/1162144151756886046/2023-10-13_00.44.28.png?ex=653ade15&is=65286915&hm=f76285eda4ee1e37f807ffbd159bc0679c93a63558d81f419794ea821b248420&)
+-------------------------
 The ***ClickCrystalPlus*** - pack contains the **following features**:
 - blue theme
 - The texture supports the [**ClickCrystals mod**](https://modrinth.com/mod/clickcrystals)
@@ -35,7 +37,7 @@ ___________________
 ## Important clarification:
 - As of now, in my opinion the texture is perfect (99%), so I ***will not continue working on it in the near future***, if there are any problems/suggestions you know how to find me **(When Minecraft receives major updates to the textures, I will also update this texture).**
 - **Please be aware that I am not leaving but taking a break!**
-- Im suggeting to use the [`Suppress OpenGL Error 128 mod`](https://modrinth.com/mod/suppressopengl1280) with this pack, this is result from bug on the texture, for more info press [**here**](https://bugs.mojang.com/browse/MC-228532) (please be aware this mod is currently for 1.20.1).
+- Im suggeting to use the [`Suppress OpenGL Error 128 mod`](https://modrinth.com/mod/suppressopengl1280) with this pack, this is result from bug on the texture, for more info press [**here**](https://bugs.mojang.com/browse/MC-228532).
 - This texture isn't providing an unfair advantages (also known as **hacks**), so please stop **judging** the texture pack.
 
 ____________
