@@ -14,7 +14,6 @@ uniform sampler2D Sampler2;
 
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
-uniform mat3 IViewRotMat;
 uniform int FogShape;
 
 uniform vec3 Light0_Direction;
@@ -26,16 +25,20 @@ out vec2 texCoord0;
 out vec2 texCoord1;
 out vec2 texCoord2;
 out vec4 normal;
-out vec4 tintColour;
+
+#moj_import <enchanted-games-custom-xp/config/xp-orb.glsl>
+#moj_import <enchanted-games-custom-xp/logic/xp-orb/outside_main.glsl>
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
-    vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Position, FogShape);
+    vertexDistance = fog_distance(Position, FogShape);
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color) * texelFetch(Sampler2, UV2 / 16, 0);
-    tintColour = Color;
     texCoord0 = UV0;
     texCoord1 = UV1;
     texCoord2 = UV2;
     normal = ProjMat * ModelViewMat * vec4(Normal, 0.0);
+
+    #moj_import <enchanted-games-custom-xp/logic/xp-orb/variables.glsl>
+    #moj_import <enchanted-games-custom-xp/logic/xp-orb/inside_main.glsl>
 }

@@ -1,7 +1,10 @@
 #version 150
+/*
+    Fullbright UB 
+    by WRP
+*/
 
 #moj_import <light.glsl>
-#moj_import <fog.glsl>
 
 in vec3 Position;
 in vec2 UV0;
@@ -12,8 +15,6 @@ uniform sampler2D Sampler2;
 
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
-uniform mat3 IViewRotMat;
-uniform int FogShape;
 
 out float vertexDistance;
 out vec2 texCoord0;
@@ -22,7 +23,7 @@ out vec4 vertexColor;
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
-    vertexDistance = fog_distance(ModelViewMat, Position, FogShape);
+    vertexDistance = length((ModelViewMat * vec4(Position, 1.0)).xyz);
     texCoord0 = UV0;
     vertexColor = Color * minecraft_sample_lightmap(Sampler2, UV2);
 }

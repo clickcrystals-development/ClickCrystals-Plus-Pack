@@ -11,21 +11,21 @@ uniform sampler2D Sampler2;
 
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
-uniform mat3 IViewRotMat;
 uniform int FogShape;
 
 out float vertexDistance;
-out vec4 lighting;
+out vec4 vertexColor;
 out vec2 texCoord0;
-out vec3 pos;
-out vec4 tintColor;
+
+#moj_import <enchanted-games-custom-xp/config/xp-text.glsl>
+#moj_import <enchanted-games-custom-xp/util.glsl>
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
-    pos = Position;
 
-    vertexDistance = fog_distance(ModelViewMat, IViewRotMat * Position, FogShape);
-    lighting = texelFetch(Sampler2, UV2 / 16, 0);
-    tintColor = Color;
+    vertexDistance = fog_distance(Position, FogShape);
+    vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
     texCoord0 = UV0;
+
+    #moj_import <enchanted-games-custom-xp/logic/xp-text/inside_main_vertex.glsl>
 }

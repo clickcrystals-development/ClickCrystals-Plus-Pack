@@ -1,4 +1,8 @@
 #version 150
+/*
+    Fullbright UB 
+    by WRP
+*/
 
 #define MINECRAFT_LIGHT_POWER   (0.6)
 #define MINECRAFT_AMBIENT_LIGHT (0.4)

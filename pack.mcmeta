@@ -1,9 +1,9 @@
 {
   "pack": {
-    "pack_format": 22,
+    "pack_format": 34,
     "supported_formats": {
-      "min_inclusive": 18,
-      "max_inclusive": 22
+      "min_inclusive": 32,
+      "max_inclusive": 34	
     },
     "description": "§bClickCrystalsPack+ 
 §9by §0§2§li_no_am"
