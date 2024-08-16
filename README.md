@@ -1,4 +1,4 @@
-# The CC+ PACK
+# [The CC+ PACK](https://modrinth.com/resourcepack/clickcrystals-plus-pack)
 ##### The Best Pack For [ClickCrystals](https://www.curseforge.com/minecraft/mc-mods/clickcrystals) +
 ---------------------------------
 ### CC+ Pack Contains The following features:
